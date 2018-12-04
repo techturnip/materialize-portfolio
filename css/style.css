@@ -1,0 +1,56 @@
+#pageHeader {
+  min-height: 95vh;
+  position: relative;
+  margin-top: -64px;
+}
+
+.heading-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  border: solid 1px #fff;
+  box-shadow: 0 1rem 1rem #111;
+}
+
+.page-heading {
+  margin: auto;
+}
+
+.section-header {
+  padding: 1rem 1rem 1.5rem;
+}
+
+.section-heading {
+  margin: 0;
+}
+
+#about,
+#portfolio,
+#contact {
+  min-height: 400px;
+  padding: 3rem 0;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.chip {
+  padding: 2px 12px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  transition: all .25s ease-out;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.chip:hover {
+  transform: translateY(-3px);
+  transition: all .25s ease-out;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#portfolio img,
+#pageHeader img {
+  width: 100%;
+}
